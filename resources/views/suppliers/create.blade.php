@@ -10,8 +10,9 @@
             @csrf
             <div class="mb-3">
                 <label for="sup_name" class="col-form-label">Nama:</label>
-                <input type="name" class="form-control rounded-top @error('sup_name') is-invalid @enderror" name="sup_name"
-                    id="sup_name" placeholder="Input Nama Supplier" autofocus value="{{ old('sup_name') }}">
+                <input type="name" class="form-control rounded-top @error('sup_name') is-invalid @enderror"
+                    name="sup_name" id="sup_name" placeholder="Input Nama Supplier" autofocus
+                    value="{{ old('sup_name') }}">
                 @error('sup_name')
                     <div class="invalid-feedback">
                         {{ $message }}
@@ -91,8 +92,9 @@
             </div>
             <div class="mb-3">
                 <label for="no_telp2" class="col-form-label">No Telepon 2: (Optional)</label>
-                <input type="name" class="form-control rounded-top @error('no_telp2') is-invalid @enderror" name="no_telp2"
-                    id="no_telp2" placeholder="Input Nomor Telepon (Boleh Kosong)" value="{{ old('no_telp2') }}">
+                <input type="name" class="form-control rounded-top @error('no_telp2') is-invalid @enderror"
+                    name="no_telp2" id="no_telp2" placeholder="Input Nomor Telepon (Boleh Kosong)"
+                    value="{{ old('no_telp2') }}">
                 @error('no_telp2')
                     <div class="invalid-feedback">
                         {{ $message }}
