@@ -45,7 +45,7 @@
     {{-- @yield('container2') --}}
 
     {{-- Sweet Alert --}}
-    {{-- @include('sweetalert::alert') --}}
+    @include('sweetalert::alert')
 
     {{-- JS Dashboard --}}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

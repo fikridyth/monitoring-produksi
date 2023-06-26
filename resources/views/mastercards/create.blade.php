@@ -145,8 +145,8 @@
             </div>
             <div class="mb-3">
                 <label for="other" class="col-form-label">Keterangan Tambahan:</label>
-                <input type="name" class="form-control rounded-top @error('other') is-invalid @enderror" name="other"
-                    id="other" placeholder="other" value="{{ old('other') }}">
+                <input type="name" class="form-control rounded-top @error('other') is-invalid @enderror"
+                    name="other" id="other" placeholder="other" value="{{ old('other') }}">
                 @error('other')
                     <div class="invalid-feedback">
                         {{ $message }}
